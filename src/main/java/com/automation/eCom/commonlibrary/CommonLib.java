@@ -31,6 +31,9 @@ public class CommonLib {
 	protected ExtentReports eReport;
 	protected ExtentTest eTest;
 	
+	
+	//this is for example
+	
 	public  CommonLib() {
 		eReport= new ExtentReports("src/test/java/com/automation/eCom/TestReports/RegisterReport.html");
 	}
