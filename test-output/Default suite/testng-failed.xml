@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <parameter name="Tags" value="@Register_Pos"/>
+  <parameter name="Browser" value="FF"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.automation.eCom.cucumberRunner.RunCukesByCompositionTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="run_cukes"/>
+        </methods>
+      </class> <!-- com.automation.eCom.cucumberRunner.RunCukesByCompositionTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

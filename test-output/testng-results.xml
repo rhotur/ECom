@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21483" started-at="2017-07-16T16:10:05Z" finished-at="2017-07-16T16:10:26Z">
+    <groups>
+      <group name="examples-testng">
+        <method signature="RunCukesByCompositionTest.run_cukes(org.testng.ITestContext)[pri:0, instance:com.automation.eCom.cucumberRunner.RunCukesByCompositionTest@12d3a4e9]" name="run_cukes" class="com.automation.eCom.cucumberRunner.RunCukesByCompositionTest"/>
+      </group> <!-- examples-testng -->
+    </groups>
+    <test name="Default test" duration-ms="21483" started-at="2017-07-16T16:10:05Z" finished-at="2017-07-16T16:10:26Z">
+      <class name="com.automation.eCom.cucumberRunner.RunCukesByCompositionTest">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.automation.eCom.cucumberRunner.RunCukesByCompositionTest@12d3a4e9]" name="launchBrowser" is-config="true" duration-ms="17308" started-at="2017-07-16T12:10:05Z" finished-at="2017-07-16T12:10:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="run_cukes(org.testng.ITestContext)[pri:0, instance:com.automation.eCom.cucumberRunner.RunCukesByCompositionTest@12d3a4e9]" name="run_cukes" duration-ms="1513" started-at="2017-07-16T12:10:22Z" description="Example of using TestNGCucumberRunner to invoke Cucumber a" finished-at="2017-07-16T12:10:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@15dcfae7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automation.eCom.cucumberRunner.RunCukesByCompositionTest@12d3a4e9]" name="closeBrowser" is-config="true" duration-ms="2609" started-at="2017-07-16T12:10:24Z" finished-at="2017-07-16T12:10:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.automation.eCom.cucumberRunner.RunCukesByCompositionTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
